@@ -3,13 +3,13 @@ package com.company;
 import java.util.Scanner;
 
 public class Main {
-    private static int exercise;
+    private static int EXERCISE_NUMBER;
 
     public static void main(String[] args) {
 
-        exercise = 32;
+        EXERCISE_NUMBER = 32;
 
-        switch (exercise) {
+        switch (EXERCISE_NUMBER) {
             case 27:
                 inputThenPrintSumAndAverage();
                 break;
