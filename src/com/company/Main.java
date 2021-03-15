@@ -3,11 +3,9 @@ package com.company;
 import java.util.Scanner;
 
 public class Main {
-    private static int EXERCISE_NUMBER;
+    private static int EXERCISE_NUMBER = 32;
 
     public static void main(String[] args) {
-
-        EXERCISE_NUMBER = 32;
 
         switch (EXERCISE_NUMBER) {
             case 27:
